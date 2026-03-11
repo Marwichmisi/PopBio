@@ -29,7 +29,7 @@ export function BioResults({ bios, hashtags, onReset }: BioResultsProps) {
   };
 
   const handleShare = async () => {
-    const shareText = "� Je viens de pimper mon profil en 3 secondes grâce à l'IA !\n\nLassé(e) de ta bio éclatée ? Viens générer la tienne (c'est gratuit) 👇\n" + window.location.origin;
+    const shareText = "🚀 Je viens de pimper mon profil en 3 secondes grâce à l'IA !\n\nLassé(e) de ta bio éclatée ? Viens générer la tienne (c'est gratuit) 👇\n" + window.location.origin;
     const result = await copyTextWithFallback(shareText);
     setStatusMessage(result.copied ? "Statut copié !" : "Prêt pour une copie manuelle.");
     setTimeout(() => setStatusMessage(null), 2500);
