@@ -135,7 +135,7 @@ export function BioForm({ onGenerate, isLoading, disabled, error, retryAfter }: 
         </div>
       )}
 
-      {retryAfter > 0 && (
+      {(retryAfter ?? 0) > 0 && (
         <div className="text-center p-3 text-sm font-medium text-amber-600 bg-amber-50 rounded-xl border border-amber-100 shadow-sm">
           Nouvelle tentative possible dans {retryAfter}s.
         </div>
