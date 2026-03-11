@@ -3,25 +3,25 @@
 @tailwind utilities;
 
 :root {
-  --background: #0a0a0a;
-  --foreground: #f7fff7;
-  --card: #0f0f0f;
-  --card-foreground: #f7fff7;
-  --popover: #0f0f0f;
-  --popover-foreground: #f7fff7;
-  --primary: #1a535c;
-  --primary-foreground: #f7fff7;
-  --secondary: #4ecdc4;
-  --secondary-foreground: #1a535c;
-  --muted: #262626;
-  --muted-foreground: #a3a3a3;
-  --accent: #4ecdc4;
-  --accent-foreground: #1a535c;
+  --background: #ffffff;
+  --foreground: #0f172a;
+  --card: #ffffff;
+  --card-foreground: #0f172a;
+  --popover: #ffffff;
+  --popover-foreground: #0f172a;
+  --primary: #4f46e5;
+  --primary-foreground: #ffffff;
+  --secondary: #f1f5f9;
+  --secondary-foreground: #0f172a;
+  --muted: #f1f5f9;
+  --muted-foreground: #64748b;
+  --accent: #4f46e5;
+  --accent-foreground: #ffffff;
   --destructive: #ef4444;
-  --destructive-foreground: #f7fff7;
-  --border: #262626;
-  --input: #262626;
-  --ring: #4ecdc4;
+  --destructive-foreground: #ffffff;
+  --border: #e2e8f0;
+  --input: #e2e8f0;
+  --ring: #4f46e5;
 }
 
 .dark {
